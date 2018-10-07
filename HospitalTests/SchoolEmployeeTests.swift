@@ -11,9 +11,9 @@ import Nimble
 class SchoolEmployeeSpec: QuickSpec {
     override func spec() {
         
-        var testBoardMember = AdvisoryBoardMember(name: "Bill", vacationDays: 30)
-        var testPrincpial = Principal(name: "Nye", vacationDays: 20)
-        var testTeacher = Teacher(name: "Science Guy", vacationDays: 15)
+        var testBoardMember = AdvisoryBoardMember(name: "Bill")
+        var testPrincpial = Principal(name: "Nye")
+        var testTeacher = Teacher(name: "Science Guy")
         
         describe("AdvisoryBoardMember - Payable") {
             it("Should implement wages() function to return 100_000.00") {
